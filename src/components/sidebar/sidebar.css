@@ -1,0 +1,47 @@
+.sidebar:hover {
+    position: absolute;
+    z-index: 1000;
+}
+
+.active-link {
+    background-color: #232a3f;
+    border-radius: 50%;
+}
+
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sidebar {
+    cursor: pointer;
+}
+
+.icon__container {
+    font-weight: 200;
+}
+
+.sidebar__icon {
+    margin: 5px;
+    width: 30px;
+
+    padding: 5px;
+}
+
+.icon__container:hover {
+    border-radius: 8px;
+    background-color: #3b486d;
+    transition: linear 0.2s;
+    font-weight: 500;
+}
+
+.sidebar:hover ~ .home-container .background-dim {
+    opacity: 0.6; 
+    transition: opacity 0.5s ease-in-out;
+}
+
+.home-container .background-dim {
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out;
+}
+
